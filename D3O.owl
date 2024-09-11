@@ -43,9 +43,6 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.tib.eu/bd</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Activator"/>
     </Declaration>
     <Declaration>
@@ -185,9 +182,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Contamination"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Continent"/>
     </Declaration>
     <Declaration>
         <Class IRI="Coordinate"/>
@@ -865,9 +859,6 @@
         <Class IRI="YAML"/>
     </Declaration>
     <Declaration>
-        <Class IRI="enzyme"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="gcMethod"/>
     </Declaration>
     <Declaration>
@@ -904,15 +895,6 @@
         <Class IRI="#BiologicalMaterial"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#City"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Country"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#District"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Embryophyte"/>
     </Declaration>
     <Declaration>
@@ -934,22 +916,10 @@
         <Class IRI="#Protozoa"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Province"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#State"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Town"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UnicellularAlgae"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UnicellularFungi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Village"/>
     </Declaration>
     <Declaration>
         <Class IRI="16SBacterial"/>
@@ -1359,10 +1329,6 @@
     <Declaration>
         <AnnotationProperty IRI="#browsingUI"/>
     </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#Province"/>
-        <Class IRI="#State"/>
-    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="Activator"/>
         <Class IRI="Effector"/>
@@ -1538,14 +1504,6 @@
     <SubClassOf>
         <Class IRI="Contamination"/>
         <Class IRI="PropertyOrAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Continent"/>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Continent"/>
-        <Class IRI="GeographicArea"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Coordinate"/>
@@ -2448,34 +2406,6 @@
         <Class IRI="#Prokaryotes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#City"/>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#City"/>
-        <Class IRI="GeographicArea"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#City"/>
-        <Class IRI="LocationOfOrigin"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Country"/>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Country"/>
-        <Class IRI="GeographicArea"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Country"/>
-        <Class IRI="LocationOfOrigin"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#District"/>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Embryophyte"/>
         <Class IRI="#MulticelluarOrganism"/>
     </SubClassOf>
@@ -2508,28 +2438,12 @@
         <Class IRI="#Eukaryotes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Province"/>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#State"/>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Town"/>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UnicellularAlgae"/>
         <Class IRI="#Eukaryotes"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UnicellularFungi"/>
         <Class IRI="#Eukaryotes"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Village"/>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="16SBacterial"/>
@@ -2559,47 +2473,6 @@
         <Class IRI="28S"/>
         <Class IRI="LSU"/>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-        <Class IRI="AnatomicStructure"/>
-        <Class IRI="ChemicalMaterial"/>
-        <Class IRI="ConceptualEntity"/>
-        <Class IRI="CultureCollection"/>
-        <Class IRI="CultureCondition"/>
-        <Class IRI="EnvironmentalCondition"/>
-        <Class IRI="GeneProduct"/>
-        <Class IRI="Identifier"/>
-        <Class IRI="Method"/>
-        <Class IRI="NucleotideSequence"/>
-        <Class IRI="Origin"/>
-        <Class IRI="Phenotype"/>
-        <Class IRI="Process"/>
-        <Class IRI="PropertyOrAttribute"/>
-        <Class IRI="Record"/>
-        <Class IRI="Reference"/>
-        <Class IRI="RiskAssesment"/>
-        <Class IRI="Strain"/>
-        <Class IRI="enzyme"/>
-        <Class IRI="#BiologicalMaterial"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.org/dc/terms/Location"/>
-        <Class IRI="AnatomicStructure"/>
-        <Class IRI="CultureCollection"/>
-        <Class IRI="CultureCondition"/>
-        <Class IRI="EnvironmentalCondition"/>
-        <Class IRI="GeneProduct"/>
-        <Class IRI="Method"/>
-        <Class IRI="NucleotideSequence"/>
-        <Class IRI="Origin"/>
-        <Class IRI="Phenotype"/>
-        <Class IRI="PropertyOrAttribute"/>
-        <Class IRI="Reference"/>
-        <Class IRI="RiskAssesment"/>
-        <Class IRI="Strain"/>
-        <Class IRI="enzyme"/>
-        <Class IRI="#BiologicalMaterial"/>
-    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="Activator"/>
         <Class IRI="Inhibitor"/>
@@ -2766,12 +2639,6 @@
         <Class IRI="GeneIdentifier"/>
         <Class IRI="GenomeIdentifier"/>
         <Class IRI="ProteinIdentifier"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="Continent"/>
-        <Class IRI="Coordinate"/>
-        <Class IRI="#City"/>
-        <Class IRI="#Country"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="CultivationTime"/>
@@ -3439,11 +3306,6 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.org/dc/terms/Location</IRI>
-        <Literal xml:lang="en">A spatial region or named place. For Darwin Core, a set of terms describing a place, whether named or not.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>owl:topDataProperty</AbbreviatedIRI>
         <Literal xml:lang="en">TopDataProperty</Literal>
@@ -3477,11 +3339,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>ChemicalMaterial</IRI>
         <Literal xml:lang="en">Chemical Material</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Continent</IRI>
-        <Literal xml:lang="en">A continent is one of several large landmasses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3555,11 +3412,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>enzyme</IRI>
-        <Literal xml:lang="en">Enzymes are proteins that act as biological catalysts (biocatalysts)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Archaea</IRI>
         <Literal xml:lang="en">microorganisms which are similar to bacteria in size and simplicity of structure but radically different in molecular organization.</Literal>
     </AnnotationAssertion>
@@ -3572,21 +3424,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#BiologicalMaterial</IRI>
         <Literal xml:lang="en">a living thing that has (or can develop) the ability to act or function independently.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#City</IRI>
-        <Literal xml:lang="en">a large and densely populated urban area; may include several independent administrative districts.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Country</IRI>
-        <Literal xml:lang="en">a politically organized body of people under a single government</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#District</IRI>
-        <Literal xml:lang="en">An administrative area spanning regions or countries.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3627,21 +3464,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Protozoa</IRI>
         <Literal xml:lang="en">Protozoa are largely defined by their method of locomotion, including flagella, cilia, and pseudopodia.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Province</IRI>
-        <Literal xml:lang="en">the territory occupied by one of the constituent administrative districts of a nation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#State</IRI>
-        <Literal xml:lang="en">the territory occupied by one of the constituent administrative districts of a nation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Town</IRI>
-        <Literal xml:lang="en">An urban area with a fixed boundary that is smaller than a city.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
