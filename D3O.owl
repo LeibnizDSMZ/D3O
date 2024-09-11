@@ -1,0 +1,3665 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://purl.dsmz.de/schema/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://purl.dsmz.de/schema/">
+    <Prefix name="" IRI="http://www.tib.eu/bd/"/>
+    <Prefix name="bd" IRI="http://www.tib.eu/bd"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="bd1" IRI="http://www.tib.eu/bd/#"/>
+    <Prefix name="bd2" IRI="http://purl.bacdive.de/bd/#"/>
+    <Prefix name="bd3" IRI="http://purl.bacdive.de/bd/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-43" IRI="http://www.semanticweb.org/gautam/ontologies/2020/5/untitled-ontology-43#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Gautam Kishore Shahi</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal xml:lang="en">13:04:2021 14:52</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal xml:lang="en">Bacdive Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Ontology for capturing, describing, distributing and publishing of Bacterial Information.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.1</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="#browsingUI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.tib.eu/bd</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Activator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Alcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Aldehyde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="AminoAcidMetabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="AnaerobicBacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="AnatomicStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="AnimalPathogenicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Anorganic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="AnorganicMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BRENDALigand-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BioCycCompound-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BiochemicalPathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BiochemicalReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BiologicalRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BodyFluid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CASRegistryNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CarbohydratePathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CarbonSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CellArrangement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CellDensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CellLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CellMorphology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CellMotility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CellPigmentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CellShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CellSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChEBI-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChEMBL-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Chaperone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChemSpider-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChemicalCompound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChemicalMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChemicalRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cofactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CofactorsAndVitaminsMetabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ColonyColor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ColonyMorphology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ColonyShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ColonySize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CompoundIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CompoundName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Concentration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ConceptualEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contamination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Continent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Coordinate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CultivationCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CultivationMedium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CultivationTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CultureCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CultureCollectionNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CultureCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CultureMedium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CulturePH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CultureTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cytokine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DNASequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DOI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dataset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DegradationPathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Diversity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DoublingTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DrugOrDisease-associatedPathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ECNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Effector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ElectronAcceptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnergyMetabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnergySource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnrichmentProcedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnsemblGeneID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnsemblProteinID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnvironmentalCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Enzyme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnzymeActivityAlteration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnzymeIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnzymeName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ExpressionFeature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ExpressionLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FASTA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FASTQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FileFormat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FlowRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FoodOrFoodProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FunctionalAnnotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GCContent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GMO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GeneExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GeneIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GeneProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GeneSequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GeneralStability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GenomeIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GenomeSequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Genus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GeographicArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GeographicLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GlycanMetabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GramNegativeBacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GramPositiveBacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GramStain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrowthFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrowthPH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrowthRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrowthSalinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrowthTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HTML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Habitat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Host"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HumanPathogenicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Humidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hydrolases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IC50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IUPACName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Inchi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InchiKey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IndustrialWaste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Inhibitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IsolationHost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IsolationInformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IsolationProcedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IsolationSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Isomerases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="JSON"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KEGGCompound-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Km"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LSU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Latitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ligases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LipidMetabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Literature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LiteratureIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LocationOfOrigin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LocusTag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Longitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lyases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lymph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MarineOrganism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MaximumPH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MaximumSalinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MaximumTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MetabolicPathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MetabolicPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MetabolicProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MicrobialPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Microbiome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MinimumPH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MinimumSalinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MinimumTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MolecularProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MolecularWeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MoleculeIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MotilityPathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mucus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Multi-DrugResistantOrganism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NCBIGeneID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NCBIGenomeAccession"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NitrogenSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NucleotideMetabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NucleotideSequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NutritionType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OBO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OpenAlexID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OptimumPH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OptimumSalinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OptimumTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Organic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OrganismCulture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OrganismGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OrganismIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OrganismStrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Origin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OxidationStability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Oxidoreductases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OxygenTolerance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PDB-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Parasite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pathogenicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Phenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Phylum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PhysicalParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PlantPathogenicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Precision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Prokaryote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PropertyOrAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ProteinIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PubChem-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PubmedID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Purification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RDF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RNASequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ReactionRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Record"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RegulatoryPathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Riboprotein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RiskAssesment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SMILES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SSU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Salinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Salt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SaltTolerance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SecondaryMetaboliteBiosynthesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SequenceFeature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Serum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SignalingPathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Soil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SporeFormation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Stability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Strain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="StrainDesignation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="StrainInfo-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="StrainNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="StructuralProtein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Subphylum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Substrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Superphylum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SurvivalRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Symbiont"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TaxonomicRank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TemperatureStability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tissue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TranscriptionFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Transferases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Translocases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TransportProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TurnoverNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TypeStrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="UncategorizedTaxon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Uniprot-ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="UnitOfMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Urine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Width"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="XLSX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="XML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="YAML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="enzyme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="gcMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="kcat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="mRNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ncRNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="pH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="pHStability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="rRNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="rRNASequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="tRNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archaea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#District"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embryophyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eukaryotes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metazoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microorganism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MulticelluarOrganism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prokaryotes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protozoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Town"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnicellularAlgae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnicellularFungi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Village"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="16SBacterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="16SMitochondrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="16SSequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="18S"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="23SBacterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="23SMitochondrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="28S"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="describesStrain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasMediaLink"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasReference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="refersTo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="fromSequenceDB"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="growthObserved"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasAbility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasActivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasAssemblyLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasBacDiveID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasBiosafetyLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasBookTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasCatalogueID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasCatalogueInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasCatalogueInstitution"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasClass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyColor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyLengthRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyLengthRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyShape"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyWidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyWidthRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColonyWidthRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasCountry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasDesignation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasDocumentType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasDomain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasECNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasEditor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasEnzyme"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasFamily"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasFlagellumArrangement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasGCContentRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasGCContentRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasGCInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasGCMethod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasGenus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasGramStain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasHemolysisAbility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasHemolysisInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasHemolysisType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasISBN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasIncubationInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasIncubationPeriod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasIncubationPeriodRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasIncubationPeriodRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasJournalAbbreviation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasJournalFullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLPSNID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLengthRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLengthRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLengthUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasMediaDiveID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasMediumComposition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasMediumGrowth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasOrder"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasOxygenTolerance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPHRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPHRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPHRangeType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPageRange"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPhylum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPigmentColor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPigmentInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPigmentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPigmentProduction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPubMedID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPublisher"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSaltConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSaltConcentrationRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSaltConcentrationRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSaltConcentrationUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSaltInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSaltType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSequenceAccession"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSequenceInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSequenceLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSpecies"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSpeciesEpithet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSporeType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasStrainNames"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasStrainNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasSubspeciesEpithet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasTaxID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasTemperatureRange"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasTemperatureRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasTemperatureRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasTestAbility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasTestType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasVariant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasVolume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasWidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasWidthRangeEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasWidthRangeStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasWidthUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isAnimalPathogen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isHumanPathogen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isMotile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isPathogen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isPlantPathogen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isTypeStrain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="matchesTaxIDLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="providedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="39"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="46"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="48"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="49"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="52"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="7758"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="7759"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#browsingUI"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Province"/>
+        <Class IRI="#State"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="Activator"/>
+        <Class IRI="Effector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Alcohol"/>
+        <Class IRI="Organic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Aldehyde"/>
+        <Class IRI="Organic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="AminoAcidMetabolism"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="AnaerobicBacteria"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="AnimalPathogenicity"/>
+        <Class IRI="Pathogenicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Anorganic"/>
+        <Class IRI="ChemicalCompound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="AnorganicMolecule"/>
+        <Class IRI="Anorganic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BRENDALigand-ID"/>
+        <Class IRI="CompoundIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BioCycCompound-ID"/>
+        <Class IRI="CompoundIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BiochemicalPathway"/>
+        <Class IRI="Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BiochemicalReaction"/>
+        <Class IRI="Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BiologicalRole"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Blood"/>
+        <Class IRI="BodyFluid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BodyFluid"/>
+        <Class IRI="AnatomicStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CASRegistryNumber"/>
+        <Class IRI="CompoundIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CarbohydratePathway"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CarbonSource"/>
+        <Class IRI="BiologicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CellArrangement"/>
+        <Class IRI="CellMorphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CellDensity"/>
+        <Class IRI="Density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CellLine"/>
+        <Class IRI="#BiologicalMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CellMorphology"/>
+        <Class IRI="MicrobialPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CellMotility"/>
+        <Class IRI="MicrobialPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CellPigmentation"/>
+        <Class IRI="CellMorphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CellShape"/>
+        <Class IRI="CellMorphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CellSize"/>
+        <Class IRI="CellMorphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ChEBI-ID"/>
+        <Class IRI="CompoundIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ChEMBL-ID"/>
+        <Class IRI="CompoundIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chaperone"/>
+        <Class IRI="Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ChemSpider-ID"/>
+        <Class IRI="CompoundIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ChemicalCompound"/>
+        <Class IRI="ChemicalMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ChemicalRole"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Class"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cofactor"/>
+        <Class IRI="ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CofactorsAndVitaminsMetabolism"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ColonyColor"/>
+        <Class IRI="ColonyMorphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ColonyMorphology"/>
+        <Class IRI="MicrobialPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ColonyShape"/>
+        <Class IRI="ColonyMorphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ColonySize"/>
+        <Class IRI="ColonyMorphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Color"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CompoundIdentifier"/>
+        <Class IRI="MoleculeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CompoundName"/>
+        <Class IRI="MoleculeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Concentration"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contamination"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Continent"/>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Continent"/>
+        <Class IRI="GeographicArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Coordinate"/>
+        <Class IRI="GeographicArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CultivationCondition"/>
+        <Class IRI="BiologicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CultivationMedium"/>
+        <Class IRI="ChemicalMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CultivationTime"/>
+        <Class IRI="Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CultureCollectionNumber"/>
+        <Class IRI="StrainNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CultureCondition"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CultureMedium"/>
+        <Class IRI="CultureCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CulturePH"/>
+        <Class IRI="CultureCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CultureTemperature"/>
+        <Class IRI="CultureCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cytokine"/>
+        <Class IRI="Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DNASequence"/>
+        <Class IRI="NucleotideSequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DOI"/>
+        <Class IRI="LiteratureIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dataset"/>
+        <Class IRI="Record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DegradationPathway"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Density"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Diversity"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Domain"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DoublingTime"/>
+        <Class IRI="Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Drug"/>
+        <Class IRI="ChemicalMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DrugOrDisease-associatedPathway"/>
+        <Class IRI="BiochemicalPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ECNumber"/>
+        <Class IRI="EnzymeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Effector"/>
+        <Class IRI="ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ElectronAcceptor"/>
+        <Class IRI="ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnergyMetabolism"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnergySource"/>
+        <Class IRI="BiologicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnergySource"/>
+        <Class IRI="MetabolicPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnrichmentProcedure"/>
+        <Class IRI="IsolationProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnsemblGeneID"/>
+        <Class IRI="GeneIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnsemblProteinID"/>
+        <Class IRI="ProteinIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Environment"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Enzyme"/>
+        <Class IRI="Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnzymeActivityAlteration"/>
+        <Class IRI="Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnzymeIdentifier"/>
+        <Class IRI="MoleculeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnzymeName"/>
+        <Class IRI="EnzymeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ExpressionFeature"/>
+        <Class IRI="Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ExpressionLevel"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FASTA"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FASTQ"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Family"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Feature"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FileFormat"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FlowRate"/>
+        <Class IRI="Rate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FoodOrFoodProduct"/>
+        <Class IRI="ChemicalMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FunctionalAnnotation"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GCContent"/>
+        <Class IRI="MolecularProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GMO"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gas"/>
+        <Class IRI="Anorganic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gender"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GeneExpression"/>
+        <Class IRI="Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GeneIdentifier"/>
+        <Class IRI="MoleculeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GeneSequence"/>
+        <Class IRI="DNASequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GeneralStability"/>
+        <Class IRI="Stability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GenomeIdentifier"/>
+        <Class IRI="MoleculeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GenomeSequence"/>
+        <Class IRI="DNASequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Genus"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GeographicArea"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GeographicLocation"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GlycanMetabolism"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GramNegativeBacteria"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GramPositiveBacteria"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GramStain"/>
+        <Class IRI="CellMorphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrowthFactor"/>
+        <Class IRI="Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrowthPH"/>
+        <Class IRI="pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrowthRate"/>
+        <Class IRI="Rate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrowthSalinity"/>
+        <Class IRI="Salinity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrowthTemperature"/>
+        <Class IRI="Temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HTML"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Habitat"/>
+        <Class IRI="Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Height"/>
+        <Class IRI="Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Host"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HumanPathogenicity"/>
+        <Class IRI="Pathogenicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Humidity"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hydrolases"/>
+        <Class IRI="Enzyme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IC50"/>
+        <Class IRI="MolecularProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IUPACName"/>
+        <Class IRI="CompoundName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Inchi"/>
+        <Class IRI="CompoundName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InchiKey"/>
+        <Class IRI="CompoundName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IndustrialWaste"/>
+        <Class IRI="Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ingredient"/>
+        <Class IRI="ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Inhibitor"/>
+        <Class IRI="Effector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IsolationHost"/>
+        <Class IRI="IsolationInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IsolationInformation"/>
+        <Class IRI="Origin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IsolationProcedure"/>
+        <Class IRI="IsolationInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IsolationSource"/>
+        <Class IRI="IsolationInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Isomerases"/>
+        <Class IRI="Enzyme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="JSON"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KEGGCompound-ID"/>
+        <Class IRI="CompoundIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Kingdom"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Km"/>
+        <Class IRI="MolecularProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LSU"/>
+        <Class IRI="rRNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lake"/>
+        <Class IRI="Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Latitude"/>
+        <Class IRI="GeographicLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Length"/>
+        <Class IRI="Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ligases"/>
+        <Class IRI="Enzyme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Light"/>
+        <Class IRI="PhysicalParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LipidMetabolism"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Literature"/>
+        <Class IRI="Record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LiteratureIdentifier"/>
+        <Class IRI="Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LocationOfOrigin"/>
+        <Class IRI="Origin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LocusTag"/>
+        <Class IRI="GeneIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Longitude"/>
+        <Class IRI="GeographicLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lyases"/>
+        <Class IRI="Enzyme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lymph"/>
+        <Class IRI="BodyFluid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MarineOrganism"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MaximumPH"/>
+        <Class IRI="pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MaximumSalinity"/>
+        <Class IRI="Salinity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MaximumTemperature"/>
+        <Class IRI="Temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MetabolicPathway"/>
+        <Class IRI="BiochemicalPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MetabolicPhenotype"/>
+        <Class IRI="Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MetabolicProcess"/>
+        <Class IRI="Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MicrobialPhenotype"/>
+        <Class IRI="Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Microbiome"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MinimumPH"/>
+        <Class IRI="pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MinimumSalinity"/>
+        <Class IRI="Salinity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MinimumTemperature"/>
+        <Class IRI="Temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MolecularProperty"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MolecularWeight"/>
+        <Class IRI="MolecularProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MolecularWeight"/>
+        <Class IRI="Weight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MoleculeIdentifier"/>
+        <Class IRI="Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MotilityPathway"/>
+        <Class IRI="BiochemicalPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mucus"/>
+        <Class IRI="BodyFluid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Multi-DrugResistantOrganism"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mutation"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NCBIGeneID"/>
+        <Class IRI="GeneIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NCBIGenomeAccession"/>
+        <Class IRI="GenomeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NitrogenSource"/>
+        <Class IRI="BiologicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NucleotideMetabolism"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NutritionType"/>
+        <Class IRI="MetabolicPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OBO"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OpenAlexID"/>
+        <Class IRI="LiteratureIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OptimumPH"/>
+        <Class IRI="pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OptimumSalinity"/>
+        <Class IRI="Salinity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OptimumTemperature"/>
+        <Class IRI="Temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Order"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Organ"/>
+        <Class IRI="AnatomicStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Organic"/>
+        <Class IRI="ChemicalCompound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OrganismCulture"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OrganismGroup"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OrganismIdentifier"/>
+        <Class IRI="Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OrganismStrain"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OxidationStability"/>
+        <Class IRI="Stability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Oxidoreductases"/>
+        <Class IRI="Enzyme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OxygenTolerance"/>
+        <Class IRI="MetabolicPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PDB-ID"/>
+        <Class IRI="ProteinIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PH"/>
+        <Class IRI="EnvironmentalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Parasite"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pathogenicity"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Phylum"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PhysicalParameter"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PlantPathogenicity"/>
+        <Class IRI="Pathogenicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Precision"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pressure"/>
+        <Class IRI="PhysicalParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Product"/>
+        <Class IRI="ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Prokaryote"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Protein"/>
+        <Class IRI="GeneProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProteinIdentifier"/>
+        <Class IRI="MoleculeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PubChem-ID"/>
+        <Class IRI="CompoundIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PubmedID"/>
+        <Class IRI="LiteratureIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Purification"/>
+        <Class IRI="MolecularProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RDF"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RNASequence"/>
+        <Class IRI="NucleotideSequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rate"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ReactionRate"/>
+        <Class IRI="Rate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RegulatoryPathway"/>
+        <Class IRI="BiochemicalPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Riboprotein"/>
+        <Class IRI="Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SMILES"/>
+        <Class IRI="CompoundName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SSU"/>
+        <Class IRI="rRNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Salinity"/>
+        <Class IRI="PhysicalParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Salt"/>
+        <Class IRI="Anorganic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SaltTolerance"/>
+        <Class IRI="MetabolicPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sea"/>
+        <Class IRI="Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SecondaryMetaboliteBiosynthesis"/>
+        <Class IRI="MetabolicPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SequenceFeature"/>
+        <Class IRI="Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Serum"/>
+        <Class IRI="BodyFluid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Shape"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SignalingPathway"/>
+        <Class IRI="BiochemicalPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Size"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Soil"/>
+        <Class IRI="Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Species"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Speed"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SporeFormation"/>
+        <Class IRI="MicrobialPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Stability"/>
+        <Class IRI="MolecularProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="StrainDesignation"/>
+        <Class IRI="StrainNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="StrainInfo-ID"/>
+        <Class IRI="OrganismIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="StrainNumber"/>
+        <Class IRI="OrganismIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="StructuralProtein"/>
+        <Class IRI="Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Subphylum"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Substrate"/>
+        <Class IRI="ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Superphylum"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SurvivalRate"/>
+        <Class IRI="Rate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Symbiont"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TaxonomicRank"/>
+        <Class IRI="ConceptualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Temperature"/>
+        <Class IRI="EnvironmentalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Temperature"/>
+        <Class IRI="PhysicalParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TemperatureStability"/>
+        <Class IRI="Stability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Time"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tissue"/>
+        <Class IRI="AnatomicStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TranscriptionFactor"/>
+        <Class IRI="Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Transferases"/>
+        <Class IRI="Enzyme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Translocases"/>
+        <Class IRI="Enzyme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportProcess"/>
+        <Class IRI="Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TurnoverNumber"/>
+        <Class IRI="MolecularProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TypeStrain"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="UncategorizedTaxon"/>
+        <Class IRI="TaxonomicRank"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Uniprot-ID"/>
+        <Class IRI="ProteinIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="UnitOfMeasure"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Urine"/>
+        <Class IRI="BodyFluid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Value"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Volume"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Weight"/>
+        <Class IRI="PropertyOrAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Width"/>
+        <Class IRI="Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="XLSX"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="XML"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="YAML"/>
+        <Class IRI="FileFormat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="gcMethod"/>
+        <Class IRI="Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="kcat"/>
+        <Class IRI="MolecularProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="mRNA"/>
+        <Class IRI="GeneProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ncRNA"/>
+        <Class IRI="GeneProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="pH"/>
+        <Class IRI="PhysicalParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="pHStability"/>
+        <Class IRI="Stability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="rRNA"/>
+        <Class IRI="GeneProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="rRNASequence"/>
+        <Class IRI="RNASequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="tRNA"/>
+        <Class IRI="GeneProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archaea"/>
+        <Class IRI="#Prokaryotes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacteria"/>
+        <Class IRI="#Prokaryotes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="GeographicArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="LocationOfOrigin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="GeographicArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="LocationOfOrigin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#District"/>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embryophyte"/>
+        <Class IRI="#MulticelluarOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eukaryotes"/>
+        <Class IRI="#Microorganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metazoa"/>
+        <Class IRI="#MulticelluarOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microorganism"/>
+        <Class IRI="OrganismGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microorganism"/>
+        <Class IRI="#BiologicalMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MulticelluarOrganism"/>
+        <Class IRI="#BiologicalMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prokaryotes"/>
+        <Class IRI="#Microorganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protozoa"/>
+        <Class IRI="#Eukaryotes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Province"/>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Town"/>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnicellularAlgae"/>
+        <Class IRI="#Eukaryotes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnicellularFungi"/>
+        <Class IRI="#Eukaryotes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Village"/>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="16SBacterial"/>
+        <Class IRI="SSU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="16SMitochondrial"/>
+        <Class IRI="SSU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="16SSequence"/>
+        <Class IRI="rRNASequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="18S"/>
+        <Class IRI="SSU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="23SBacterial"/>
+        <Class IRI="LSU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="23SMitochondrial"/>
+        <Class IRI="LSU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="28S"/>
+        <Class IRI="LSU"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+        <Class IRI="AnatomicStructure"/>
+        <Class IRI="ChemicalMaterial"/>
+        <Class IRI="ConceptualEntity"/>
+        <Class IRI="CultureCollection"/>
+        <Class IRI="CultureCondition"/>
+        <Class IRI="EnvironmentalCondition"/>
+        <Class IRI="GeneProduct"/>
+        <Class IRI="Identifier"/>
+        <Class IRI="Method"/>
+        <Class IRI="NucleotideSequence"/>
+        <Class IRI="Origin"/>
+        <Class IRI="Phenotype"/>
+        <Class IRI="Process"/>
+        <Class IRI="PropertyOrAttribute"/>
+        <Class IRI="Record"/>
+        <Class IRI="Reference"/>
+        <Class IRI="RiskAssesment"/>
+        <Class IRI="Strain"/>
+        <Class IRI="enzyme"/>
+        <Class IRI="#BiologicalMaterial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/dc/terms/Location"/>
+        <Class IRI="AnatomicStructure"/>
+        <Class IRI="CultureCollection"/>
+        <Class IRI="CultureCondition"/>
+        <Class IRI="EnvironmentalCondition"/>
+        <Class IRI="GeneProduct"/>
+        <Class IRI="Method"/>
+        <Class IRI="NucleotideSequence"/>
+        <Class IRI="Origin"/>
+        <Class IRI="Phenotype"/>
+        <Class IRI="PropertyOrAttribute"/>
+        <Class IRI="Reference"/>
+        <Class IRI="RiskAssesment"/>
+        <Class IRI="Strain"/>
+        <Class IRI="enzyme"/>
+        <Class IRI="#BiologicalMaterial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Activator"/>
+        <Class IRI="Inhibitor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Alcohol"/>
+        <Class IRI="Aldehyde"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="AminoAcidMetabolism"/>
+        <Class IRI="CarbohydratePathway"/>
+        <Class IRI="CofactorsAndVitaminsMetabolism"/>
+        <Class IRI="DegradationPathway"/>
+        <Class IRI="EnergyMetabolism"/>
+        <Class IRI="GlycanMetabolism"/>
+        <Class IRI="LipidMetabolism"/>
+        <Class IRI="NucleotideMetabolism"/>
+        <Class IRI="SecondaryMetaboliteBiosynthesis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="AnaerobicBacteria"/>
+        <Class IRI="GMO"/>
+        <Class IRI="GramNegativeBacteria"/>
+        <Class IRI="GramPositiveBacteria"/>
+        <Class IRI="Host"/>
+        <Class IRI="MarineOrganism"/>
+        <Class IRI="Microbiome"/>
+        <Class IRI="Multi-DrugResistantOrganism"/>
+        <Class IRI="OrganismCulture"/>
+        <Class IRI="OrganismStrain"/>
+        <Class IRI="Parasite"/>
+        <Class IRI="Prokaryote"/>
+        <Class IRI="Symbiont"/>
+        <Class IRI="TypeStrain"/>
+        <Class IRI="#Microorganism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="AnimalPathogenicity"/>
+        <Class IRI="HumanPathogenicity"/>
+        <Class IRI="PlantPathogenicity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Anorganic"/>
+        <Class IRI="Organic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="AnorganicMolecule"/>
+        <Class IRI="Gas"/>
+        <Class IRI="Salt"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="BRENDALigand-ID"/>
+        <Class IRI="BioCycCompound-ID"/>
+        <Class IRI="CASRegistryNumber"/>
+        <Class IRI="ChEBI-ID"/>
+        <Class IRI="ChEMBL-ID"/>
+        <Class IRI="ChemSpider-ID"/>
+        <Class IRI="KEGGCompound-ID"/>
+        <Class IRI="PubChem-ID"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="BiochemicalPathway"/>
+        <Class IRI="BiochemicalReaction"/>
+        <Class IRI="EnzymeActivityAlteration"/>
+        <Class IRI="GeneExpression"/>
+        <Class IRI="MetabolicProcess"/>
+        <Class IRI="TransportProcess"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="BiologicalRole"/>
+        <Class IRI="ChemicalRole"/>
+        <Class IRI="CultureCondition"/>
+        <Class IRI="Environment"/>
+        <Class IRI="FileFormat"/>
+        <Class IRI="FunctionalAnnotation"/>
+        <Class IRI="GeographicArea"/>
+        <Class IRI="Mutation"/>
+        <Class IRI="OrganismGroup"/>
+        <Class IRI="Pathogenicity"/>
+        <Class IRI="TaxonomicRank"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Blood"/>
+        <Class IRI="Lymph"/>
+        <Class IRI="Mucus"/>
+        <Class IRI="Serum"/>
+        <Class IRI="Urine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="BodyFluid"/>
+        <Class IRI="Organ"/>
+        <Class IRI="Tissue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="CarbonSource"/>
+        <Class IRI="CultivationCondition"/>
+        <Class IRI="EnergySource"/>
+        <Class IRI="NitrogenSource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Chaperone"/>
+        <Class IRI="Cytokine"/>
+        <Class IRI="Enzyme"/>
+        <Class IRI="GrowthFactor"/>
+        <Class IRI="Riboprotein"/>
+        <Class IRI="StructuralProtein"/>
+        <Class IRI="TranscriptionFactor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="ChemicalCompound"/>
+        <Class IRI="CultivationMedium"/>
+        <Class IRI="Drug"/>
+        <Class IRI="FoodOrFoodProduct"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Class"/>
+        <Class IRI="Domain"/>
+        <Class IRI="Family"/>
+        <Class IRI="Genus"/>
+        <Class IRI="Kingdom"/>
+        <Class IRI="Order"/>
+        <Class IRI="Phylum"/>
+        <Class IRI="Species"/>
+        <Class IRI="Subphylum"/>
+        <Class IRI="Superphylum"/>
+        <Class IRI="UncategorizedTaxon"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Cofactor"/>
+        <Class IRI="Effector"/>
+        <Class IRI="ElectronAcceptor"/>
+        <Class IRI="Ingredient"/>
+        <Class IRI="Product"/>
+        <Class IRI="Substrate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Color"/>
+        <Class IRI="Concentration"/>
+        <Class IRI="Contamination"/>
+        <Class IRI="Density"/>
+        <Class IRI="Diversity"/>
+        <Class IRI="ExpressionLevel"/>
+        <Class IRI="Feature"/>
+        <Class IRI="Gender"/>
+        <Class IRI="GeographicLocation"/>
+        <Class IRI="Humidity"/>
+        <Class IRI="MolecularProperty"/>
+        <Class IRI="PhysicalParameter"/>
+        <Class IRI="Precision"/>
+        <Class IRI="Rate"/>
+        <Class IRI="Shape"/>
+        <Class IRI="Size"/>
+        <Class IRI="Speed"/>
+        <Class IRI="Time"/>
+        <Class IRI="UnitOfMeasure"/>
+        <Class IRI="Value"/>
+        <Class IRI="Volume"/>
+        <Class IRI="Weight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="CompoundIdentifier"/>
+        <Class IRI="CompoundName"/>
+        <Class IRI="EnzymeIdentifier"/>
+        <Class IRI="GeneIdentifier"/>
+        <Class IRI="GenomeIdentifier"/>
+        <Class IRI="ProteinIdentifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Continent"/>
+        <Class IRI="Coordinate"/>
+        <Class IRI="#City"/>
+        <Class IRI="#Country"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="CultivationTime"/>
+        <Class IRI="DoublingTime"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="CultureCollectionNumber"/>
+        <Class IRI="StrainDesignation"/>
+        <Class IRI="StrainInfo-ID"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="DOI"/>
+        <Class IRI="OpenAlexID"/>
+        <Class IRI="PubmedID"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Dataset"/>
+        <Class IRI="Literature"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="DrugOrDisease-associatedPathway"/>
+        <Class IRI="MetabolicPathway"/>
+        <Class IRI="MotilityPathway"/>
+        <Class IRI="RegulatoryPathway"/>
+        <Class IRI="SignalingPathway"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="ECNumber"/>
+        <Class IRI="EnzymeName"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="EnsemblGeneID"/>
+        <Class IRI="LocusTag"/>
+        <Class IRI="NCBIGeneID"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="EnsemblProteinID"/>
+        <Class IRI="PDB-ID"/>
+        <Class IRI="Uniprot-ID"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="ExpressionFeature"/>
+        <Class IRI="SequenceFeature"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="FASTA"/>
+        <Class IRI="FASTQ"/>
+        <Class IRI="HTML"/>
+        <Class IRI="JSON"/>
+        <Class IRI="OBO"/>
+        <Class IRI="RDF"/>
+        <Class IRI="XLSX"/>
+        <Class IRI="XML"/>
+        <Class IRI="YAML"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="FlowRate"/>
+        <Class IRI="GrowthRate"/>
+        <Class IRI="ReactionRate"/>
+        <Class IRI="SurvivalRate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GCContent"/>
+        <Class IRI="IC50"/>
+        <Class IRI="Km"/>
+        <Class IRI="MolecularWeight"/>
+        <Class IRI="Purification"/>
+        <Class IRI="Stability"/>
+        <Class IRI="TurnoverNumber"/>
+        <Class IRI="kcat"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GeneralStability"/>
+        <Class IRI="OxidationStability"/>
+        <Class IRI="TemperatureStability"/>
+        <Class IRI="pHStability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GrowthPH"/>
+        <Class IRI="MaximumPH"/>
+        <Class IRI="MinimumPH"/>
+        <Class IRI="OptimumPH"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GrowthSalinity"/>
+        <Class IRI="MaximumSalinity"/>
+        <Class IRI="MinimumSalinity"/>
+        <Class IRI="OptimumSalinity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GrowthTemperature"/>
+        <Class IRI="MaximumTemperature"/>
+        <Class IRI="MinimumTemperature"/>
+        <Class IRI="OptimumTemperature"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Height"/>
+        <Class IRI="Length"/>
+        <Class IRI="Width"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Hydrolases"/>
+        <Class IRI="Isomerases"/>
+        <Class IRI="Ligases"/>
+        <Class IRI="Lyases"/>
+        <Class IRI="Oxidoreductases"/>
+        <Class IRI="Transferases"/>
+        <Class IRI="Translocases"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="IUPACName"/>
+        <Class IRI="Inchi"/>
+        <Class IRI="InchiKey"/>
+        <Class IRI="SMILES"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="IndustrialWaste"/>
+        <Class IRI="Lake"/>
+        <Class IRI="Sea"/>
+        <Class IRI="Soil"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="IsolationHost"/>
+        <Class IRI="IsolationSource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="IsolationInformation"/>
+        <Class IRI="LocationOfOrigin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="LSU"/>
+        <Class IRI="SSU"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Latitude"/>
+        <Class IRI="Longitude"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Light"/>
+        <Class IRI="Pressure"/>
+        <Class IRI="Salinity"/>
+        <Class IRI="Temperature"/>
+        <Class IRI="pH"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="LiteratureIdentifier"/>
+        <Class IRI="MoleculeIdentifier"/>
+        <Class IRI="OrganismIdentifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Protein"/>
+        <Class IRI="mRNA"/>
+        <Class IRI="ncRNA"/>
+        <Class IRI="rRNA"/>
+        <Class IRI="tRNA"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="16SBacterial"/>
+        <Class IRI="16SMitochondrial"/>
+        <Class IRI="18S"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="23SBacterial"/>
+        <Class IRI="23SMitochondrial"/>
+        <Class IRI="28S"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="39"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="46"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="48"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="49"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="52"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="7758"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="7759"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="describesStrain"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="hasMediaLink"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="hasReference"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="refersTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="fromSequenceDB"/>
+        <DataProperty IRI="hasSequenceInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="growthObserved"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasAbility"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasActivity"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasAssemblyLevel"/>
+        <DataProperty IRI="hasSequenceInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasBacDiveID"/>
+        <DataProperty IRI="hasStrainNames"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasBibliographicInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasBiosafetyLevel"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasBookTitle"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasCatalogueID"/>
+        <DataProperty IRI="hasCatalogueInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasCatalogueInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasCatalogueInstitution"/>
+        <DataProperty IRI="hasCatalogueInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasClass"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyColor"/>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyLength"/>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyLengthRangeEnd"/>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyLengthRangeStart"/>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyShape"/>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyWidth"/>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyWidthRangeEnd"/>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColonyWidthRangeStart"/>
+        <DataProperty IRI="hasColonyMorphologyInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasCountry"/>
+        <DataProperty IRI="hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasDesignation"/>
+        <DataProperty IRI="hasStrainNames"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasDocumentType"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasDomain"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasECNumber"/>
+        <DataProperty IRI="hasEnzyme"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasEditor"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasEnzyme"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasFamily"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasFlagellumArrangement"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasGCContentRangeEnd"/>
+        <DataProperty IRI="hasGCInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasGCContentRangeStart"/>
+        <DataProperty IRI="hasGCInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasGCInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasGCMethod"/>
+        <DataProperty IRI="hasGCInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasGenus"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasGramStain"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasGrowthInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasHemolysisAbility"/>
+        <DataProperty IRI="hasHemolysisInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasHemolysisInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasHemolysisType"/>
+        <DataProperty IRI="hasHemolysisInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasISBN"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasIncubationInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasIncubationPeriod"/>
+        <DataProperty IRI="hasIncubationInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasIncubationPeriodRangeEnd"/>
+        <DataProperty IRI="hasIncubationInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasIncubationPeriodRangeStart"/>
+        <DataProperty IRI="hasIncubationInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasJournalAbbreviation"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasJournalFullName"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLPSNID"/>
+        <DataProperty IRI="hasStrainNames"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLatitude"/>
+        <DataProperty IRI="hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLength"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLengthRangeEnd"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLengthRangeStart"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLengthUnit"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLink"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLocation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasLongitude"/>
+        <DataProperty IRI="hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasMediaDiveID"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasMediumComposition"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasMediumGrowth"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasOrder"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasOxygenTolerance"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPHRangeEnd"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPHRangeStart"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPHRangeType"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPageRange"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPhylum"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPigmentColor"/>
+        <DataProperty IRI="hasPigmentInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPigmentInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPigmentName"/>
+        <DataProperty IRI="hasPigmentInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPigmentProduction"/>
+        <DataProperty IRI="hasPigmentInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPubMedID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasPublisher"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSaltConcentration"/>
+        <DataProperty IRI="hasSaltInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSaltConcentrationRangeEnd"/>
+        <DataProperty IRI="hasSaltInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSaltConcentrationRangeStart"/>
+        <DataProperty IRI="hasSaltInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSaltConcentrationUnit"/>
+        <DataProperty IRI="hasSaltInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSaltInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSaltType"/>
+        <DataProperty IRI="hasSaltInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSequenceAccession"/>
+        <DataProperty IRI="hasSequenceInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSequenceInformation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSequenceLength"/>
+        <DataProperty IRI="hasSequenceInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSpecies"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSpeciesEpithet"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSporeType"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasStrainNames"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasStrainNumber"/>
+        <DataProperty IRI="hasStrainNames"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasSubspeciesEpithet"/>
+        <DataProperty IRI="hasTaxonomicRank"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasTaxID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasTaxonomicRank"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasTemperatureRange"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasTemperatureRangeEnd"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasTemperatureRangeStart"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasTestAbility"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasTestType"/>
+        <DataProperty IRI="hasGrowthInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasVariant"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasVolume"/>
+        <DataProperty IRI="hasBibliographicInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasWidth"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasWidthRangeEnd"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasWidthRangeStart"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasWidthUnit"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="isAnimalPathogen"/>
+        <DataProperty IRI="isPathogen"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="isHumanPathogen"/>
+        <DataProperty IRI="isPathogen"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="isMotile"/>
+        <DataProperty IRI="hasPhenotypeInformation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="isPathogen"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="isPlantPathogen"/>
+        <DataProperty IRI="isPathogen"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="isTypeStrain"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="matchesTaxIDLevel"/>
+        <DataProperty IRI="hasTaxID"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="providedBy"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/dc/terms/Location</IRI>
+        <Literal xml:lang="en">A spatial region or named place. For Darwin Core, a set of terms describing a place, whether named or not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:topDataProperty</AbbreviatedIRI>
+        <Literal xml:lang="en">TopDataProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>CellMorphology</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OMP_0000071</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>CellMotility</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OMP_0000001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>CellShape</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OMP_0000073</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>CellSize</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OMP_0000074</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ChemicalCompound</IRI>
+        <Literal xml:lang="en">Chemical Compound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ChemicalMaterial</IRI>
+        <Literal xml:lang="en">Chemical Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Continent</IRI>
+        <Literal xml:lang="en">A continent is one of several large landmasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>CultivationMedium</IRI>
+        <Literal xml:lang="en">Cultivation Medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>CultureCondition</IRI>
+        <Literal xml:lang="en">Cultivation conditions are more defined since they are important to study bacteria in the lab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>CultureTemperature</IRI>
+        <Literal xml:lang="en">temperature for bacteria cultivation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>EnvironmentalCondition</IRI>
+        <Literal xml:lang="en">It describes the enviromental condition for the growth of  bacteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>FoodOrFoodProduct</IRI>
+        <Literal xml:lang="en">Food or Food Product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>GramStain</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OMP_0000191</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>MetabolicPhenotype</IRI>
+        <IRI>http://purl.jp/bio/10/mpo#MPO_04000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Method</IRI>
+        <Literal>Method to identify the details of the bacteria and it&apos;s related property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>MicrobialPhenotype</IRI>
+        <IRI>MicrobialPhenotype</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>OxygenTolerance</IRI>
+        <IRI>http://purl.jp/bio/10/mpo#MPO_04001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>PH</IRI>
+        <Literal xml:lang="en">Details about the PH conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Phenotype</IRI>
+        <Literal xml:lang="en">Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>RiskAssesment</IRI>
+        <IRI>http://purl.bioontology.org/ontology/MESH/D018570</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Temperature</IRI>
+        <Literal xml:lang="en">Temperature condition of Bacteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>enzyme</IRI>
+        <Literal xml:lang="en">Enzymes are proteins that act as biological catalysts (biocatalysts)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Archaea</IRI>
+        <Literal xml:lang="en">microorganisms which are similar to bacteria in size and simplicity of structure but radically different in molecular organization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bacteria</IRI>
+        <Literal xml:lang="en">a member of a large group of unicellular microorganisms which have cell walls but lack organelles and an organized nucleus, including some which can cause disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BiologicalMaterial</IRI>
+        <Literal xml:lang="en">a living thing that has (or can develop) the ability to act or function independently.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">a large and densely populated urban area; may include several independent administrative districts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="en">a politically organized body of people under a single government</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#District</IRI>
+        <Literal xml:lang="en">An administrative area spanning regions or countries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Embryophyte</IRI>
+        <Literal xml:lang="en">Embryophytes are complex multicellular eukaryotes with specialized reproductive organs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Embryophyte</IRI>
+        <Literal>Land Plants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eukaryotes</IRI>
+        <Literal xml:lang="en">Eukaryotic cells contain membrane bound organelles, such as mitochondria, a nucleus, and chloroplasts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Metazoa</IRI>
+        <Literal xml:lang="en">Metazoa (also called Animals) are multicellular eukaryotic organisms that form the biological kingdom Animalia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Microorganism</IRI>
+        <Literal xml:lang="en">A unicellular organism, also known as a single-celled organism, is an organism that consists of a single cell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MulticelluarOrganism</IRI>
+        <Literal xml:lang="en">Multicellular organisms are organisms that consist of more than one cell, in contrast to unicellular organisms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prokaryotes</IRI>
+        <Literal xml:lang="en">Prokaryotes lack membrane-bound organelles, such as mitochondria or a nucleus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Protozoa</IRI>
+        <Literal xml:lang="en">Protozoa are largely defined by their method of locomotion, including flagella, cilia, and pseudopodia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Province</IRI>
+        <Literal xml:lang="en">the territory occupied by one of the constituent administrative districts of a nation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#State</IRI>
+        <Literal xml:lang="en">the territory occupied by one of the constituent administrative districts of a nation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Town</IRI>
+        <Literal xml:lang="en">An urban area with a fixed boundary that is smaller than a city.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnicellularAlgae</IRI>
+        <Literal xml:lang="en">Unicellular algae are plant-like autotrophs and contain chlorophyll.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnicellularFungi</IRI>
+        <Literal xml:lang="en">Unicellular fungi include the yeasts. Fungi are found in most habitats, although most are found on land.</Literal>
+    </AnnotationAssertion>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
