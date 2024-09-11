@@ -712,6 +712,9 @@
         <Class IRI="RiskAssesment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="RiskAssessment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="SMILES"/>
     </Declaration>
     <Declaration>
