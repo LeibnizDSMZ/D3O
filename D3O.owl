@@ -39,7 +39,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.1</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="#browsingUI"/>
+        <AnnotationProperty IRI="browsingUI"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.tib.eu/bd</Literal>
     </Annotation>
     <Declaration>
@@ -889,40 +889,40 @@
         <Class IRI="tRNA"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Archaea"/>
+        <Class IRI="Archaea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BiologicalMaterial"/>
+        <Class IRI="BiologicalMaterial"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Embryophyte"/>
+        <Class IRI="Embryophyte"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Eukaryotes"/>
+        <Class IRI="Eukaryotes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Metazoa"/>
+        <Class IRI="Metazoa"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Microorganism"/>
+        <Class IRI="Microorganism"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MulticelluarOrganism"/>
+        <Class IRI="MulticelluarOrganism"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Prokaryotes"/>
+        <Class IRI="Prokaryotes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Protozoa"/>
+        <Class IRI="Protozoa"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UnicellularAlgae"/>
+        <Class IRI="UnicellularAlgae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UnicellularFungi"/>
+        <Class IRI="UnicellularFungi"/>
     </Declaration>
     <Declaration>
         <Class IRI="16SBacterial"/>
@@ -1330,7 +1330,7 @@
         <AnnotationProperty IRI="date"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#browsingUI"/>
+        <AnnotationProperty IRI="browsingUI"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="Activator"/>
@@ -1414,7 +1414,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="CellLine"/>
-        <Class IRI="#BiologicalMaterial"/>
+        <Class IRI="BiologicalMaterial"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="CellMorphology"/>
@@ -2401,52 +2401,52 @@
         <Class IRI="GeneProduct"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Archaea"/>
-        <Class IRI="#Prokaryotes"/>
+        <Class IRI="Archaea"/>
+        <Class IRI="Prokaryotes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Bacteria"/>
-        <Class IRI="#Prokaryotes"/>
+        <Class IRI="Bacteria"/>
+        <Class IRI="Prokaryotes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Embryophyte"/>
-        <Class IRI="#MulticelluarOrganism"/>
+        <Class IRI="Embryophyte"/>
+        <Class IRI="MulticelluarOrganism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Eukaryotes"/>
-        <Class IRI="#Microorganism"/>
+        <Class IRI="Eukaryotes"/>
+        <Class IRI="Microorganism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Metazoa"/>
-        <Class IRI="#MulticelluarOrganism"/>
+        <Class IRI="Metazoa"/>
+        <Class IRI="MulticelluarOrganism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Microorganism"/>
+        <Class IRI="Microorganism"/>
         <Class IRI="OrganismGroup"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Microorganism"/>
-        <Class IRI="#BiologicalMaterial"/>
+        <Class IRI="Microorganism"/>
+        <Class IRI="BiologicalMaterial"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MulticelluarOrganism"/>
-        <Class IRI="#BiologicalMaterial"/>
+        <Class IRI="MulticelluarOrganism"/>
+        <Class IRI="BiologicalMaterial"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Prokaryotes"/>
-        <Class IRI="#Microorganism"/>
+        <Class IRI="Prokaryotes"/>
+        <Class IRI="Microorganism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Protozoa"/>
-        <Class IRI="#Eukaryotes"/>
+        <Class IRI="Protozoa"/>
+        <Class IRI="Eukaryotes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UnicellularAlgae"/>
-        <Class IRI="#Eukaryotes"/>
+        <Class IRI="UnicellularAlgae"/>
+        <Class IRI="Eukaryotes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UnicellularFungi"/>
-        <Class IRI="#Eukaryotes"/>
+        <Class IRI="UnicellularFungi"/>
+        <Class IRI="Eukaryotes"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="16SBacterial"/>
@@ -2510,7 +2510,7 @@
         <Class IRI="Prokaryote"/>
         <Class IRI="Symbiont"/>
         <Class IRI="TypeStrain"/>
-        <Class IRI="#Microorganism"/>
+        <Class IRI="Microorganism"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="AnimalPathogenicity"/>
@@ -2809,47 +2809,47 @@
         <Class IRI="28S"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="39"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="46"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="47"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="48"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="49"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="5"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="52"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="7758"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bacteria"/>
+        <Class IRI="Bacteria"/>
         <NamedIndividual IRI="7759"/>
     </ClassAssertion>
     <SubObjectPropertyOf>
@@ -3487,4 +3487,3 @@
 
 
 <!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
-
